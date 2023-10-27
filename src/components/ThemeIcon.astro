@@ -1,0 +1,20 @@
+---
+---
+<button id="themeToggle">
+	<svg width="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+	  <!-- Icon paths for sun and moon -->
+	</svg>
+  </button>
+  
+  <style>
+	#themeToggle {
+	  border: 0;
+	  background: none;
+	}
+	.sun { fill: black; }
+	.moon { fill: transparent; }
+  
+	:global(.dark) .sun { fill: transparent; }
+	:global(.dark) .moon { fill: white; }
+  </style>
+  
