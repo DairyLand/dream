@@ -1,7 +1,7 @@
 <script>
   let meme = null;
 
-  async function Meme() {
+  export async function Meme() {
     try {
       const response = await fetch('https://meme-api.com/gimme');
       if (response.ok) {
@@ -19,7 +19,7 @@
 <main>
   <h1>Random Meme Generator</h1>
 
-  <button on:click={fetchRandomMeme}>Get Random Meme</button>
+  <button on:click={Meme}>Get Random Meme</button>
 
   {#if meme}
     <img src={meme} alt="Random Meme" style="max-width: 100%;" />

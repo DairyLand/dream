@@ -13,8 +13,6 @@
     "@astrojs/mdx": "^1.1.2",
     "@astrojs/rss": "^3.0.0",
     "@astrojs/sitemap": "^3.0.2",
-    "@astrojs/svelte": "^4.0.3",
-    "astro": "^3.3.2",
-    "svelte": "^4.2.2"
+    "astro": "^3.3.2"
   }
 }
