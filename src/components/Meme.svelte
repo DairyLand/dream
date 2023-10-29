@@ -1,7 +1,7 @@
 <script>
   let meme = null;
 
-  async function fetchRandomMeme() {
+  async function Meme() {
     try {
       const response = await fetch('https://meme-api.com/gimme');
       if (response.ok) {
